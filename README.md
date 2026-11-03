@@ -4,3 +4,5 @@ Installers and update files only; no source code. Installed apps check this repo
 
 Proprietary software. Copyright (c) 2026 Richard K. Farris, Jr. All rights reserved.
 Use requires an account and is governed by the Terms of Service. Not licensed for redistribution.
+
+Subscriptions and services are offered by Golf Well Played, LLC.
