@@ -1,0 +1,60 @@
+/* plans.golfwellplayed.com — GWP Sim Plan Generator site (2026-11-04). GWP's brand colors (the app's brand.js). */
+:root {
+  --green: #0F3D2E; --green-2: #1a5a44; --gold: #C9A227; --bg: #f6f6f1; --card: #ffffff;
+  --text: #1a1a1a; --muted: #5e625c; --border: #dcdcd5; --max: 1040px;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: var(--text); background: var(--bg); }
+a { color: var(--green-2); }
+a:focus-visible, .btn:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+.wrap { max-width: var(--max); margin: 0 auto; padding: 0 20px; }
+header.top { background: var(--green); color: #fff; }
+header.top .wrap { display: flex; align-items: center; gap: 14px; padding-top: 14px; padding-bottom: 14px; }
+header.top img { width: 44px; height: 44px; border-radius: 50%; background: #fff; }
+header.top .brand { font-weight: 700; letter-spacing: .02em; }
+header.top .brand small { display: block; font-weight: 400; opacity: .8; font-size: 13px; letter-spacing: .06em; text-transform: uppercase; }
+header.top nav { margin-left: auto; display: flex; gap: 18px; flex-wrap: wrap; }
+header.top nav a { color: #fff; text-decoration: none; opacity: .9; font-size: 15px; }
+header.top nav a:hover { opacity: 1; text-decoration: underline; }
+.hero { background: linear-gradient(160deg, var(--green) 0%, var(--green-2) 100%); color: #fff; padding: 56px 0 64px; }
+.hero h1 { font-size: clamp(28px, 4.4vw, 44px); line-height: 1.15; margin: 0 0 14px; max-width: 760px; }
+.hero p { font-size: 18px; max-width: 680px; opacity: .92; margin: 0 0 26px; }
+.btn { display: inline-block; padding: 12px 20px; border-radius: 8px; font-weight: 600; text-decoration: none;
+  border: 2px solid transparent; }
+.btn-gold { background: var(--gold); color: #1a1a1a; }
+.btn-gold:hover { filter: brightness(1.06); }
+.btn-line { border-color: rgba(255,255,255,.7); color: #fff; margin-left: 10px; }
+.btn-line:hover { background: rgba(255,255,255,.1); }
+section { padding: 52px 0; }
+section h2 { font-size: 26px; margin: 0 0 8px; color: var(--green); }
+section .lead { color: var(--muted); margin: 0 0 26px; max-width: 720px; }
+.grid { display: grid; gap: 18px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+.card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 20px; }
+.card h3 { margin: 0 0 6px; font-size: 18px; color: var(--green); }
+.card p { margin: 0; color: var(--muted); font-size: 15px; }
+.steps { counter-reset: s; list-style: none; padding: 0; margin: 0; display: grid; gap: 14px; }
+.steps li { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 16px 18px 16px 62px;
+  position: relative; }
+.steps li::before { counter-increment: s; content: counter(s); position: absolute; left: 18px; top: 16px; width: 30px;
+  height: 30px; border-radius: 50%; background: var(--green); color: #fff; font-weight: 700; display: grid;
+  place-items: center; font-size: 15px; }
+.steps b { color: var(--green); }
+.downloads { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+.downloads a.card { text-decoration: none; color: inherit; }
+.downloads a.card:hover { border-color: var(--green-2); }
+.note { font-size: 14px; color: var(--muted); }
+code { background: #ecece5; padding: 2px 6px; border-radius: 4px; font-size: 14px; word-break: break-all; }
+.band { background: #fff; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+footer { background: var(--green); color: #e8efe9; padding: 26px 0; font-size: 14px; }
+footer .wrap { display: flex; flex-wrap: wrap; gap: 10px 22px; align-items: center; }
+footer a { color: #fff; }
+footer .right { margin-left: auto; opacity: .8; }
+.doc { max-width: 760px; }
+.doc h1 { color: var(--green); font-size: 30px; margin: 0 0 10px; }
+@media (max-width: 640px) {
+  header.top nav { display: none; }
+  .btn-line { margin: 10px 0 0; }
+  footer .right { margin-left: 0; }
+}
