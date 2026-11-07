@@ -58,3 +58,12 @@ footer .right { margin-left: auto; opacity: .8; }
   .btn-line { margin: 10px 0 0; }
   footer .right { margin-left: 0; }
 }
+/* the legal pages (tools/legal-publish.js, 2026-11-07) */
+.doc h2 { font-size: 21px; margin: 30px 0 8px; }
+.doc h3 { font-size: 17px; margin: 22px 0 6px; color: var(--green); }
+.doc .stamp { color: var(--muted); font-size: 14px; margin: 0 0 22px; }
+.doc li { margin: 6px 0; }
+.doc ol ol { list-style-type: lower-alpha; }
+.doc table { border-collapse: collapse; width: 100%; margin: 12px 0 18px; background: var(--card); font-size: 15px; }
+.doc th, .doc td { border: 1px solid var(--border); padding: 8px 10px; text-align: left; vertical-align: top; }
+.doc th { background: #ecece5; color: var(--green); }
