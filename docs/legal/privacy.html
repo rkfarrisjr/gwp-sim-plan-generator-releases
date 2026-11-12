@@ -16,23 +16,24 @@
 </div></header>
 <main><section><div class="wrap doc">
 <h1>Privacy Policy — The GWP (Golf) Sim Plan Generator</h1>
-<p class="stamp">Last modified: Nov 7, 2026, 4:53 PM ET (UTC−5)</p>
+<p class="stamp">Last modified: Nov 12, 2026, 12:25 PM ET (UTC−5)</p>
 <h2>1. Who we are and whose information this covers</h2>
-<p>Golf Well Played, LLC (860 Peachtree Street NE, Suite 2205, Atlanta, GA 30308; “GWP”, “we”, “us”) runs the GWP (Golf) “Sim Plan Generator” (the “Service”). This policy covers personal information about the people who use the Service on behalf of a company: owners, admins and sales reps (“users”).</p>
+<p>Golf Well Played, LLC (1007 Mansell Rd., Suite A-172, Roswell, GA 30076; “GWP”, “we”, “us”) runs the GWP (Golf) “Sim Plan Generator” (the “Service”). This policy covers personal information about the people who use the Service on behalf of a company: owners, admins and sales reps (“users”).</p>
 <p>The Service also holds information about the companies’ own clients (for example, a homeowner’s name and address on a plan). For that information, the company decides how it is used and GWP acts on its behalf under our Data Processing Addendum. Clients with questions about it should contact the company they are working with.</p>
 <h2>2. What we collect</h2>
 <table>
 <tr><th>Category</th><th>Examples</th><th>Where it comes from</th></tr>
-<tr><td>Account</td><td>Name, work e-mail, role (owner, admin, rep), company name</td><td>Your company’s Jobber team, or you</td></tr>
+<tr><td>Account</td><td>Name, work e-mail, role (owner, admin, rep), company name</td><td>Your company’s integrated system, or from you</td></tr>
 <tr><td>Jobber connection</td><td>Jobber account id, authorization tokens</td><td>Jobber, when your company connects</td></tr>
+<tr><td>CRM or other connection</td><td>Account id, authorization tokens, or API access</td><td>The host system when your company connects, or from you</td></tr>
 <tr><td>Work in the Service</td><td>Plans you create or receive, catalog edits, sharing settings (for example, whether other companies can find you)</td><td>You</td></tr>
 <tr><td>Usage and diagnostics</td><td>Sign-in times, app version, errors, request counts</td><td>The app and our servers</td></tr>
 <tr><td>Communications</td><td>Messages you send to support</td><td>You</td></tr>
 </table>
-<p>We don’t collect payment card details; when payment starts, our payment processor collects them directly. We don’t use advertising trackers. Contract terms are explained during purchase through our payment processor.</p>
+<p>We don’t collect payment card details; when payment starts, our payment processor collects them directly. We don’t use advertising trackers. Contract terms, duration and billing periods are explained during purchase through our payment processor.</p>
 <h2>3. How we use it</h2>
 <ul><li>
-To provide the Service: sign you in, show your company’s catalog and plans, write quotes and products to your company’s Jobber account, and deliver shares you accept.
+To provide the Service: sign you in, show your company’s catalog and plans, write quotes and products to your company’s Jobber account, and deliver Sim plan shares between users of the Service.
 </li><li>
 To send service e-mails and texts: activation codes, welcome messages, share notices, and account or billing notices.
 </li><li>
@@ -44,45 +45,46 @@ To improve the Service, using aggregated information that doesn’t identify you
 </li><li>
 To meet legal obligations.
 </li></ul>
-<p>We don’t sell personal information, and we don’t use it for advertising.</p>
+<p>We don’t sell personal information to 3rd Parties.</p>
 <h2>4. Who we share it with</h2>
 <p><strong>Service providers</strong> that run parts of the Service for us, under contracts that limit their use of the data:</p>
 <table>
 <tr><th>Provider</th><th>What it does</th><th>Data involved</th></tr>
 <tr><td>Xano</td><td>Database and API hosting: <strong>Google Cloud Platform (GCP) - North America</strong></td><td>All Service data</td></tr>
-<tr><td>Jobber</td><td>Your company’s field-service account, connected by your company</td><td>Products, clients, quotes your company keeps there</td></tr>
-<tr><td>Hookdeck</td><td>Relays Jobber’s change notifications to our servers</td><td>Notification contents, which can include client details</td></tr>
-<tr><td>Resend</td><td>Sends service e-mails</td><td>Name, e-mail, message contents</td></tr>
-<tr><td>Quo</td><td>Text-message alerts to GWP staff about the Service’s health</td><td>Company names, error details</td></tr>
-<tr><td>Stripe</td><td>Payments, once paid subscriptions start</td><td>Billing contact and payment details</td></tr>
+<tr><td>Jobber</td><td>Your company’s field-service account, connected by your company</td><td>Users, products, clients, quotes your company keeps there</td></tr>
+<tr><td>CRM or other connection</td><td>Your company’s unique identifier within that system connected by your company</td><td>Users, products, clients, quotes your company keeps there</td></tr>
+<tr><td>Hookdeck</td><td>Relays change notifications to our servers via webhooks from integrated systems such as Jobber or other CRM systems</td><td>Notification contents, which can include client details</td></tr>
+<tr><td>Resend</td><td>Sends service e-mails including onboarding and system health alerts</td><td>Name, e-mail, message contents</td></tr>
+<tr><td>Quo</td><td>Text-message alerts to GWP staff about the Service’s health</td><td>Company names, error or system event details</td></tr>
+<tr><td>Stripe</td><td>Subscription agreements, payments</td><td>Contract terms, billing contact, payment details, and account status</td></tr>
 </table>
 <p><strong>Other companies, only when you choose.</strong> If you opt in to plan sharing, other companies’ users can find you by name and company, and you can send them plans. An equipment share carries no client information; a lead share carries the client’s name and contact details and needs an agreement between both companies before it is allowed.</p>
 <p><strong>Your own company.</strong> Your company’s owner and admins can see users’ names, e-mails, roles and sharing settings.</p>
-<p><strong>Contractors and subcontractors.</strong> To provide them information they need to provide services to you.</p>
+<p><strong>Contractors and subcontractors.</strong> To provide them information they need to provide services to you through the Service.</p>
 <p><strong>Legal and business reasons:</strong> to comply with the law or a valid legal request, to protect rights and safety, or as part of a merger or sale of the business, with this policy continuing to apply.</p>
 <h2>5. Security</h2>
 <ul><li>
 Data travels over encrypted connections (HTTPS).
 </li><li>
-Personal information is encrypted in transit and at rest on our servers, with keys held only by our servers.
+Personal information is encrypted in transit and at rest on our servers, with keys held within the Service.
 </li><li>
 Every request is checked against the signed-in user’s company, so one company can’t reach another’s data.
 </li><li>
-Access is limited by role: only owners and admins manage users, sharing agreements and the catalog.
+Access is limited by role: only owners and admins manage users, sharing agreements and the product catalog with its associated attributes per product type.
 </li><li>
 We monitor errors and usage limits and are alerted when something looks wrong.
 </li><li>
-<strong>Your devices are yours to secure.</strong> Copies on your company’s own devices, such as plans saved in the desktop app, exported PDFs and printouts, are under your company’s control. Protecting those devices (for example, disk encryption, screen locks and access to shared computers) is your company’s responsibility.
+<strong>Your devices are yours to secure.</strong> Copies on your company’s own devices, such as plans saved in the desktop app, exported PDFs and printouts, are under your company’s control. Protecting those devices, printouts and digital assets (for example, disk encryption, screen locks and access to shared computers) is your company’s responsibility.
 </li></ul>
-<p>No system is perfectly secure. If a breach affects your personal information, we’ll tell you as the law requires.</p>
+<p>No system is perfectly secure. If a breach affects your personal information, we’ll notify you as the law requires.</p>
 <h2>6. How long we keep it</h2>
 <table>
 <tr><th>Information</th><th>Kept for</th></tr>
 <tr><td>Account and work data</td><td>While your company’s account is open; deleted within 180 days after it closes</td></tr>
-<tr><td>Shares not answered</td><td>Expire after 30 days</td></tr>
-<tr><td>Completed shares and their history</td><td>About 180 days, then deleted</td></tr>
-<tr><td>Jobber change notifications</td><td>About 180 days, then deleted</td></tr>
-<tr><td>Usage and diagnostics</td><td>12 months, or aggregated and anonymized so it no longer identifies anyone</td></tr>
+<tr><td>Sim plan shares not answered</td><td>Expire after 30 days</td></tr>
+<tr><td>Completed Sim plan shares and their history</td><td>About 180 days, then deleted</td></tr>
+<tr><td>Integrated system change notifications (webhooks)</td><td>About 180 days, then deleted</td></tr>
+<tr><td>Usage and diagnostics</td><td>12 months, or data are aggregated and anonymized so it no longer identifies anyone</td></tr>
 </table>
 <p>We keep some records longer when the law requires it, for example billing records.</p>
 <h2>7. Your choices and rights; children; changes; contact</h2>
@@ -91,13 +93,13 @@ We monitor errors and usage limits and are alerted when something looks wrong.
 </li><li>
 <strong>Access, correction and deletion.</strong> You can ask us for a copy of your personal information, to correct it, or to delete it, at <a href="mailto:privacy@golfwellplayed.com"><a href="mailto:privacy@golfwellplayed.com">privacy@golfwellplayed.com</a></a>. Some requests go through your company, since it controls your account. Depending on where you live, you may have further rights under state law; we honor them as the law requires and won’t treat you differently for using them.
 </li><li>
-<strong>Children.</strong> The Service is for businesses and not meant for anyone under 18.
+<strong>Children.</strong> The Service is for businesses and not intended for use by anyone under the age of 18.
 </li><li>
-<strong>Where data is stored.</strong> In the United States (per Xano’s agreement with GWP).
+<strong>Where data is stored.</strong> In the United States (per GWP’s agreements with its data processing providers such as Xano and Hookdeck).
 </li><li>
-<strong>Changes.</strong> We’ll post updates here with a new last “Modified date”, and tell users by e-mail or in the app’s release notes about any material changes.
+<strong>Changes.</strong> We’ll post updates here with a new “last modified date”, and tell users by e-mail or in the release notes - available within the Sim Plan Generator app - about any material changes.
 </li><li>
-<strong>Contact.</strong> Golf Well Played, LLC, 860 Peachtree Street NE, Suite 2205, Atlanta, GA 30308 · <a href="mailto:privacy@golfwellplayed.com"><a href="mailto:privacy@golfwellplayed.com">privacy@golfwellplayed.com</a></a>.
+<strong>Contact.</strong> Golf Well Played, LLC, 1007 Mansell Rd., Suite A-172, Roswell, GA 30076 · <a href="mailto:privacy@golfwellplayed.com"><a href="mailto:privacy@golfwellplayed.com">privacy@golfwellplayed.com</a></a>.
 </li></ul>
 </div></section></main>
 <footer><div class="wrap">
