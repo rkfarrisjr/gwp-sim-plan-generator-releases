@@ -41,6 +41,8 @@ section .lead { color: var(--muted); margin: 0 0 26px; max-width: 720px; }
   height: 30px; border-radius: 50%; background: var(--green); color: #fff; font-weight: 700; display: grid;
   place-items: center; font-size: 15px; }
 .steps b { color: var(--green); }
+.steps.plain li { padding-left: 18px; }
+.steps.plain li::before { content: none; }
 .downloads { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
 .downloads a.card { text-decoration: none; color: inherit; }
 .downloads a.card:hover { border-color: var(--green-2); }
